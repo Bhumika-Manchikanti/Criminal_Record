@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.criminal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Criminal">
+        <activity android:name=".PoliceSearchActivity"
+            android:label="Police Search Activity"></activity>
+        <activity android:name=".FileFIRActivity"
+            android:label="File FIR"/>
+        <activity android:name=".TransferActivity"
+            android:label="Transfer Criminal"/>
+        <activity android:name=".PunishmentActivity"
+            android:label="Punish Criminal"/>
+        <activity android:name=".VisitorActivity"
+            android:label="Visitor Form"/>
+        <activity android:name=".AddCriminalActivity"
+            android:label="Add Criminal"/>
+        <activity android:name=".CbiActivity"
+            android:label="CBI Activity"/>
+        <activity android:name=".Cbi_Login"
+            android:label="CBI LOGIN"/>
+        <activity android:name=".JspActivity"
+            android:label="JSP Activity"/>
+        <activity android:name=".Jsp_Login"
+            android:label="JSP LOGIN"/>
+        <activity android:name=".JudgeActivity"
+            android:label="JUDGE Activity"/>
+        <activity android:name=".PoliceActivity"
+            android:label="POLICE Activity"/>
+        <activity android:name=".Judge_Login"
+            android:label="JUDGE LOGIN"/>
+        <activity android:name=".Police_Login"
+            android:label="POLICE LOGIN"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

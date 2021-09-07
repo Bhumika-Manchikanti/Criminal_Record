@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SMART CRIMINAL RECORDS</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="no_of_attempts_reamaining_5">No of Attempts Reamaining: 5</string>
+</resources>

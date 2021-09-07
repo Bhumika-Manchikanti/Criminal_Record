@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925140499652",
+    "project_id": "criminal-record-system",
+    "storage_bucket": "criminal-record-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925140499652:android:28dc9af09aa5216ad41d91",
+        "android_client_info": {
+          "package_name": "com.example.criminal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925140499652-jgetvh1sjm2lnvlnh8lmeg8cpt75gsal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSrqaz2qha_M5H5Xy4fUg6hGg4Ba6Ptpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925140499652-jgetvh1sjm2lnvlnh8lmeg8cpt75gsal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

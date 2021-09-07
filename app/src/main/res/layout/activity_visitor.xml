@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txthead1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       Enter the Details of person related to visit criminal" />
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Criminal ID" />
+
+            <EditText
+                android:id="@+id/b11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/txt22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visitor Name" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/b22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <TextView
+                android:id="@+id/txt33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Arrival Date" />
+
+            <EditText
+                android:id="@+id/b33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/txt44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entry Time" />
+
+            <EditText
+                android:id="@+id/b44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txt55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exit Time" />
+
+            <EditText
+                android:id="@+id/b55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txt66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visitor Ph No" />
+
+            <EditText
+                android:id="@+id/b66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/txt77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visitor's Address" />
+
+            <EditText
+                android:id="@+id/b77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"/>
+
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="visitrecord"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
